@@ -48,7 +48,7 @@ pip install -r requirements.txt
  2. **Tesseract OCR (System dependency)**  
    Tesseract is required for Captcha solving.
 
-   **Windows:**  
+      **Windows:**  
    - Download the installer from [UB Mannheim Tesseract Build](https://github.com/UB-Mannheim/tesseract/wiki)  
    - During installation, check **“Add Tesseract to system PATH”**  
    - Default installation folder:  
