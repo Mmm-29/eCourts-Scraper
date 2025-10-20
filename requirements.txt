@@ -1,0 +1,9 @@
+streamlit
+httpx
+beautifulsoup4
+opencv-python-headless
+pillow
+numpy
+pandas
+tesseract
+lxml
