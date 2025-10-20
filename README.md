@@ -17,9 +17,10 @@ The cause list is fetched automatically, and you can download it as a PDF.
 ---
 
 ## 📂 Folder Structure
+```bash
 ecourts_scraper/
 │
-├── captcha_solver.py # Captcha solving logic using OpenCV + Tesseract
-├── scraper.py # State/District/Complex/Court extraction + cause list fetch
-├── app.py # Streamlit interface
-├── requirements.txt # Python dependencies
+├── captcha_solver.py      # Captcha solving logic using OpenCV + Tesseract
+├── scraper.py             # State/District/Complex/Court extraction + cause list fetch
+├── app.py                 # Streamlit interface
+├── requirements.txt       # Python dependencies
