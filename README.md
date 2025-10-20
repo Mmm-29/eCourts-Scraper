@@ -83,15 +83,14 @@ pip install -r requirements.txt
 
 
 ## How To Run
-  1. Activate your virtual environment:
+  1. Create & Activate your virtual environment
 
-   ```bash
-     # Windows
-     my_ecourt_venv\Scripts\activate
-    ```
-
-
-  2.** Install dependencies**
+    ```bash
+      # Windows
+      python -m venv 'virtual_env_name'
+      virtual_env_name\Scripts\activate
+     ```
+2.** Install dependencies**
   ```bash
     pip install -r requirements.txt
   ```
