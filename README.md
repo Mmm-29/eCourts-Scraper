@@ -16,7 +16,7 @@ The cause list is fetched automatically, and you can download it as a PDF.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 ```bash
 ecourts_scraper/
 │
@@ -24,3 +24,25 @@ ecourts_scraper/
 ├── scraper.py             # State/District/Complex/Court extraction + cause list fetch
 ├── app.py                 # Streamlit interface
 ├── requirements.txt       # Python dependencies
+
+```
+##  Requirements
+- Python packages
+- Add the following dependencies in requirements.txt:
+```bash
+streamlit
+httpx
+beautifulsoup4
+opencv-python-headless
+pillow
+numpy
+pandas
+lxml
+requests
+reportlab
+```
+## Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
