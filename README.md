@@ -49,36 +49,36 @@ pip install -r requirements.txt
    Tesseract is required for Captcha solving.
 
       **Windows:**  
-   - Download the installer from [UB Mannheim Tesseract Build](https://github.com/UB-Mannheim/tesseract/wiki)  
-   - During installation, check **“Add Tesseract to system PATH”**  
-   - Default installation folder:  
-     `C:\Program Files\Tesseract-OCR`  
-   - Verify installation:  
-     ```bash
-     tesseract --version
-     ```  
-   - If not recognized, manually add `C:\Program Files\Tesseract-OCR` to your system PATH
-
-   **Linux (Ubuntu/Debian):**  
-   - Install via apt:  
-     ```bash
-     sudo apt update
-     sudo apt install tesseract-ocr
-     ```  
-   - Verify installation:  
-     ```bash
-     tesseract --version
-     ```
-
-   **MacOS (using Homebrew):**  
-   - Install via Homebrew:  
-     ```bash
-     brew install tesseract
-     ```  
-   - Verify installation:  
-     ```bash
-     tesseract --version
-     ```
+       - Download the installer from [UB Mannheim Tesseract Build](https://github.com/UB-Mannheim/tesseract/wiki)  
+       - During installation, check **“Add Tesseract to system PATH”**  
+       - Default installation folder:  
+         `C:\Program Files\Tesseract-OCR`  
+       - Verify installation:  
+         ```bash
+         tesseract --version
+         ```  
+       - If not recognized, manually add `C:\Program Files\Tesseract-OCR` to your system PATH
+    
+      **Linux (Ubuntu/Debian):**  
+       - Install via apt:  
+         ```bash
+         sudo apt update
+         sudo apt install tesseract-ocr
+         ```  
+       - Verify installation:  
+         ```bash
+         tesseract --version
+         ```
+    
+      **MacOS (using Homebrew):**  
+       - Install via Homebrew:  
+         ```bash
+         brew install tesseract
+         ```  
+       - Verify installation:  
+         ```bash
+         tesseract --version
+         ```
 
 
 
