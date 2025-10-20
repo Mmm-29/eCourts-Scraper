@@ -82,3 +82,42 @@ pip install -r requirements.txt
 
 
 
+## How To Run
+  1. Activate your virtual environment:
+
+   ```bash
+     # Windows
+     my_ecourt_venv\Scripts\activate
+    ```
+
+
+  2.** Install dependencies**
+  ```bash
+    pip install -r requirements.txt
+  ```
+  3. Run Streamlit App:
+  ```bash
+  streamlit run app.py
+  ```
+
+
+  4. Follow the UI:
+
+   - Select or type State, District, Complex, Court
+   - Choose Case Type (Civil/Criminal)
+   - Pick the Cause List Date (default is today)
+   - Click Fetch Cause List
+   - View data and download as PDF
+
+ ## Project Flow
+
+- States: Scraper fetches all states using get_states().
+- Districts: Based on selected state, get_districts() fetches districts.
+- Complexes: Based on selected district, get_complexes() fetches court complexes.
+- Courts: Based on selected complex, get_courts() fetches available courts.
+- Captcha: Captcha class downloads the captcha image, cleans it with OpenCV, and uses Tesseract OCR to read it.
+- Cause List Fetch: get_cause_list() submits selected options and Captcha to eCourts, parses the HTML table, and returns a Pandas DataFrame.
+- Streamlit: UI allows user interaction, selection of date, Civil/Criminal type, and export of cause list to PDF.
+
+
+
