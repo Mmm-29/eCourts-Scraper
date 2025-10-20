@@ -6,7 +6,7 @@ The cause list is fetched automatically, and you can download it as a PDF.
 
 ---
 
-## 🔹 Features
+## Features
 
 - Dynamically scrape **States, Districts, Complexes, Courts** from the eCourts website.
 - Automatically solve Captcha using **Tesseract OCR**.
@@ -27,7 +27,7 @@ ecourts_scraper/
 
 ```
 ##  Requirements
-- 1 Python packages
+1. **Python Packages**  
 - Add the following dependencies in requirements.txt:
 ```bash
 streamlit
@@ -45,4 +45,17 @@ reportlab
 ```bash
 pip install -r requirements.txt
 ```
+ 2. T**esseract OCR (System dependency)**
+    Tesseract is required for Captcha solving.
+
+    **Windows:**  
+   - Download the installer from [UB Mannheim Tesseract Build](https://github.com/UB-Mannheim/tesseract/wiki)  
+   - During installation, check **“Add Tesseract to system PATH”**  
+   - Default installation folder:
+     `C:\Program Files\Tesseract-OCR`
+   - Verify installation:
+     `tesseract --version`
+
+     
+
 
