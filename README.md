@@ -92,7 +92,7 @@ python -m venv virtual_env_name
 virtual_env_name\Scripts\activate
 ```
 
-2.**Install dependencies**
+2. **Install dependencies**
 
   ```bash
     pip install -r requirements.txt
@@ -119,7 +119,20 @@ virtual_env_name\Scripts\activate
 - Courts: Based on selected complex, get_courts() fetches available courts.
 - Captcha: Captcha class downloads the captcha image, cleans it with OpenCV, and uses Tesseract OCR to read it.
 - Cause List Fetch: get_cause_list() submits selected options and Captcha to eCourts, parses the HTML table, and returns a Pandas DataFrame.
-- Streamlit: UI allows user interaction, selection of date, Civil/Criminal type, and export of cause list to PDF.
+- Streamlit: UI allows user interaction, selection of date, Civil/Criminal type, and export/download of cause list to PDF.
+
+
+## Notes
+
+- Ensure Tesseract OCR is installed correctly — most common issue on Windows.
+- If cause list doesn’t appear, check:
+- Correct date format (dd-mm-yyyy)
+- Civil/Criminal selection
+- Retry if captcha fails
+
+## References
+- [eCourts India](https://services.ecourts.gov.in/)
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 
 
 
