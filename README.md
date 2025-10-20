@@ -134,8 +134,18 @@ virtual_env_name\Scripts\activate
 - [eCourts India](https://services.ecourts.gov.in/)
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 
+## Sample Screenshots
 
 ![image Text](https://github.com/Mmm-29/eCourts-Scraper/blob/e0a484e22e1d9261e59ec16dded56abbce97b840/Screenshot%202025-10-20%20200552.png) 
+
+![image Text](https://github.com/Mmm-29/eCourts-Scraper/blob/e0a484e22e1d9261e59ec16dded56abbce97b840/Screenshot%202025-10-20%20200552.png) 
+
+![image Text](https://github.com/Mmm-29/eCourts-Scraper/blob/e0a484e22e1d9261e59ec16dded56abbce97b840/Screenshot%202025-10-20%20200552.png) 
+
+![image Text](https://github.com/Mmm-29/eCourts-Scraper/blob/e0a484e22e1d9261e59ec16dded56abbce97b840/Screenshot%202025-10-20%20200552.png) 
+
+![image Text](https://github.com/Mmm-29/eCourts-Scraper/blob/e0a484e22e1d9261e59ec16dded56abbce97b840/Screenshot%202025-10-20%20200552.png) 
+
 
 
 
