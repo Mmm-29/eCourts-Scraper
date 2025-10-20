@@ -82,27 +82,30 @@ pip install -r requirements.txt
 
 
 
-## How To Run
-  1. Create & Activate your virtual environment
+## Setup and Run
 
-    ```bash
-      # Windows
-      python -m venv 'virtual_env_name'
-      virtual_env_name\Scripts\activate
-     ```
-2.** Install dependencies**
+1. **Create & Activate your virtual environment**
+
+```bash
+# Windows
+python -m venv virtual_env_name
+virtual_env_name\Scripts\activate
+```
+
+2.**Install dependencies**
+
   ```bash
     pip install -r requirements.txt
   ```
-  3. Run Streamlit App:
+3. **Run Streamlit App**
   ```bash
   streamlit run app.py
   ```
 
 
-  4. Follow the UI:
-
-   - Select or type State, District, Complex, Court
+4. **Follow the UI**
+   
+  - Select or type State, District, Complex, Court
    - Choose Case Type (Civil/Criminal)
    - Pick the Cause List Date (default is today)
    - Click Fetch Cause List
