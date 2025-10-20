@@ -27,7 +27,7 @@ ecourts_scraper/
 
 ```
 ##  Requirements
-- Python packages
+- 1 Python packages
 - Add the following dependencies in requirements.txt:
 ```bash
 streamlit
